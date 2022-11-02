@@ -72,8 +72,15 @@ res2 = LetraA2_Velho()
 pp(res2)
 
 print('')
-
 # B
+def LetraA2_Novo():
+    aux = db.execute_query('MATCH (c:City) ')
+    wj(aux, '2A')
+    return aux
+
+res1 = LetraA2_Novo()
+pp(res1)
+
 
 #wj(aux, '2B')
 
