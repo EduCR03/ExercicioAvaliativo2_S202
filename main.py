@@ -135,6 +135,7 @@ professor = {
 aux = crud.create(professor)
 pp(aux)
 # C
+# D
 name = 'Chris Lima',
 cpf = '162.052.777-77'
 professor = {
@@ -145,5 +146,5 @@ professor = {
 aux = crud.create(professor)
 pp(aux)
 
-# D
+
 
